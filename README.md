@@ -1,0 +1,1 @@
+# usersccript-time-spent-youtube
