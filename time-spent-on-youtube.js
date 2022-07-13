@@ -4,8 +4,8 @@
 // @version      1.0
 // @description  A simple timer that shows how much time you spent on Youtube today (resets at midnight).
 // @author       @marcodallagatta
-// @updateURL    https://github.com/marcodallagatta/userscript-time-spent-youtube
-// @downloadURL  https://github.com/marcodallagatta/userscript-time-spent-youtube
+// @updateURL    https://raw.githubusercontent.com/Mottie/Misc-userscripts/master/greasy-fork-total-installs.user.js
+// @downloadURL  https://raw.githubusercontent.com/Mottie/Misc-userscripts/master/greasy-fork-total-installs.user.js
 // @match        https://www.youtube.com/*
 // @icon         https://icons.duckduckgo.com/ip2/youtube.com.ico
 // ==/UserScript==
