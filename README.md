@@ -17,7 +17,7 @@ The script refreshes every 15 seconds only when the YouTube tab is actually acti
    - Dolphin - install [Tampermonkey](https://tampermonkey.net/?ext=dhdg&browser=dolphin).
    - UC Browser - install [Tampermonkey](https://tampermonkey.net/?ext=dhdg&browser=ucweb).
 
-2. Install by clicking on the following link: [time-spent-on-youtube](https://raw.githubusercontent.com/Mottie/Misc-userscripts/master/greasy-fork-total-installs.user.js)
+2. Install by clicking on the following link: [time-spent-on-youtube](https://raw.githubusercontent.com/marcodallagatta/userscript-time-spent-youtube/main/time-spent-on-youtube.js)
 
 ## Updating
 
