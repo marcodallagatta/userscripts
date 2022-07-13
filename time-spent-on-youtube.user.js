@@ -5,8 +5,8 @@
 // @license      MIT
 // @author       Marco Dalla Gatta
 // @namespace    https://github.com/marcodallagatta/userscript-time-spent-youtube
-// @updateURL    https://raw.githubusercontent.com/marcodallagatta/userscript-time-spent-youtube/main/time-spent-on-youtube.js
-// @downloadURL  https://raw.githubusercontent.com/marcodallagatta/userscript-time-spent-youtube/main/time-spent-on-youtube.js
+// @updateURL    https://raw.githubusercontent.com/marcodallagatta/userscript-time-spent-youtube/main/time-spent-on-youtube.user.js
+// @downloadURL  https://raw.githubusercontent.com/marcodallagatta/userscript-time-spent-youtube/main/time-spent-on-youtube.user.js
 // @match        https://www.youtube.com/*
 // @icon         https://icons.duckduckgo.com/ip2/youtube.com.ico
 // @grant        none
