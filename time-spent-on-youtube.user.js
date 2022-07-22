@@ -50,7 +50,7 @@
 
   setInterval(function () {
     if (background || document.hasFocus()) {
-      spent += 0.25;
+      spent = parseFloat(localStorage.getItem("spent")) + 0.25;
       localStorage.setItem("spent", spent);
       showAlert(spent);
     }
