@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Time Spent on Youtube
-// @version      2022.07.22.21.47
+// @version      2022.08.05.21.42
 // @description  A simple timer that shows how much time you spent on Youtube today (resets at midnight)
 // @license      MIT
 // @author       Marco Dalla Gatta
