@@ -16,6 +16,8 @@
   "use strict";
 
   const background = false; // 'true' also counts when YT is in a background tab, 'false' only counts active tab
+  const showInTitle = true; // 'true' prepend the minutes before the title in the tab
+  const originalTitle = document.title;
 
   const today = new Date();
   const dd = String(today.getDate()).padStart(2, "0");
@@ -37,14 +39,16 @@
   elem.style = "color:white;font-size:2rem";
   inDOM.appendChild(elem);
   showAlert(spent);
-
+  
   function showAlert(time) {
+    const mm = (Math.trunc(time) % 60).toString();
     if (time > 60) {
-      elem.innerText = `${Math.trunc(time / 60).toString()}h ${(
-        Math.trunc(time) % 60
-      ).toString()}m`;
+      const hh = Math.trunc(time / 60).toString();
+      elem.innerText = `${hh}h ${mm}m`;
+      if (showInTitle) document.title = `${hh}h${mm.padStart(2, "0")}m ${originalTitle}`;
     } else {
-      elem.innerText = `${Math.trunc(time).toString()}m`;
+      elem.innerText = `${mm}m`;
+      if (showInTitle) document.title = `${mm.padStart(2, "0")}m ${originalTitle}`;
     }
   }
 
