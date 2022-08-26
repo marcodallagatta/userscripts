@@ -3,6 +3,8 @@
 // @namespace    https://github.com/marcodallagatta/userscripts/tree/main/wikiloc-auto-add-filters
 // @version      1.0
 // @description  Automatically applies the specified filters to the search page on WikiLoc (unless it's the favorite list)
+// @updateURL    https://github.com/marcodallagatta/userscripts/raw/main/wikiloc-auto-add-filters/wikiloc-auto-add-filters.user.js
+// @downloadURL  https://github.com/marcodallagatta/userscripts/raw/main/wikiloc-auto-add-filters/wikiloc-auto-add-filters.user.js
 // @author       You
 // @match        https://www.wikiloc.com/wikiloc/map.do?*
 // @icon         https://icons.duckduckgo.com/ip2/wikiloc.com.ico
