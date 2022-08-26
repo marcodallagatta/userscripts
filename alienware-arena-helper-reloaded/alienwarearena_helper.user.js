@@ -2,7 +2,7 @@
 // @name         Alienware Arena Helper Reloaded
 // @namespace    https://github.com/marcodallagatta/userscripts/raw/main/alienware-arena-helper-reloaded
 // @version      2022.09.26.16.01
-// @description  Make earning daily ARP easier
+// @description  Makes earning daily ARP easier
 // @author       Marco Dalla Gatta
 // @match        https://*.alienwarearena.com/*
 // @updateURL    https://github.com/marcodallagatta/userscripts/raw/main/alienware-arena-helper-reloaded/alienwarearena_helper.user.js
