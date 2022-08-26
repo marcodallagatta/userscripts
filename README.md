@@ -3,7 +3,7 @@ This is a collection of userscripts I've made for myself or other people. Some a
 ## Installation
 
 1. Make sure you have an extension that supports userscripts:
-
+   
    - Firefox - install [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/).
    - Chrome - install [Tampermonkey](https://tampermonkey.net/?ext=dhdg&browser=chrome).
    - Edge - install [Tampermonkey](https://www.tampermonkey.net/?ext=dhdg&browser=edge).

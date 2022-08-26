@@ -9,4 +9,4 @@ The script refreshes every 15 seconds only when the YouTube tab is actually acti
 
 ## Issues
 
-Please report any userscript issues within this repository's [issue section](https://github.com/marcodallagatta/userscript-time-spent-youtube/issues).
+Please report any userscript issues within this repository's [issue section](https://github.com/marcodallagatta/userscripts/issues).
