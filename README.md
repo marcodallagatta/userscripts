@@ -1,11 +1,4 @@
-# Time Spent on YouTube Userscript
-
-![preview](https://github.com/marcodallagatta/userscript-time-spent-youtube/blob/main/preview.jpg?raw=true)
-
-A friend asked me to make a simple userscript to show how long she spends on YouTube every day.
-I decided to publish it here since it could easily be adapted to other websites without changing the logic.
-
-The script refreshes every 15 seconds only when the YouTube tab is actually active. To make it count time even in background just change the `background` variable to `true`.
+This is a collection of userscripts I've made for myself or other people. Some are very specifically tailored and no support will be offered in case they don't work, but if you want to fix problems you encounter feel free to do a PR afterwards.
 
 ## Installation
 
@@ -24,7 +17,3 @@ The script refreshes every 15 seconds only when the YouTube tab is actually acti
 ## Updating
 
 Userscripts are set up to automatically update. You can check for updates from within the Greasemonkey or Tampermonkey menu, or click on the install link again to get the update.
-
-## Issues
-
-Please report any userscript issues within this repository's [issue section](https://github.com/marcodallagatta/userscript-time-spent-youtube/issues).
