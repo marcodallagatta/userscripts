@@ -29,7 +29,7 @@ This is an userscript to make earning ARP on [Alienware Arena (AWA)](https://www
    - Dolphin - install [Tampermonkey](https://tampermonkey.net/?ext=dhdg&browser=dolphin).
    - UC Browser - install [Tampermonkey](https://tampermonkey.net/?ext=dhdg&browser=ucweb).
 
-2. Install by clicking on the following link: [alienware-arena-helper-reloaded](https://github.com/marcodallagatta/userscripts/blob/main/alienware-arena-helper-reloaded/alienwarearena_helper.user.js)
+2. Install by clicking on the following link: [alienware-arena-helper-reloaded](https://github.com/marcodallagatta/userscripts/raw/main/alienware-arena-helper-reloaded/alienwarearena_helper.user.js)
 
 ## Updating
 
