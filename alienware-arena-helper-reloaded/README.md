@@ -1,7 +1,6 @@
 # Alienware Arena Helper Reloaded
 
-https://github.com/marcodallagatta/alienware-arena-helper-reloaded/blob/main/options.jpg?raw=true
-![options and notification in the bottom right](https://github.com/marcodallagatta/userscripts/blob/main/alienware-arena-helper-reloaded/options.jpg?raw=true))
+![options and notification in the bottom right](https://github.com/marcodallagatta/userscripts/blob/main/alienware-arena-helper-reloaded/options.jpg?raw=true)
 
 
 This is an userscript to make earning ARP on [Alienware Arena (AWA)](https://www.alienwarearena.com/) a bit easier without triggering any automation-detection system than could potentially lead to an account ban, as it is mostly an informative userscript and not a 'macro' one. The project was originall forked from the long-unmantained [Alienware Arena Helper](https://github.com/thomas-ashcraft/alienware_arena_helper) usescript, to which I've added new AWA ways to earn points, removed old ones, and generally made the code a bit cleaner by removing dependencies such as jQuery.
