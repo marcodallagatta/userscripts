@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Time Spent on Youtube
-// @version      2022.09.28.15.06
-// @description  A simple timer that shows how much time you spent on Youtube today. Visit the GitHub repo for more info: https://github.com/marcodallagatta/userscripts/raw/main/time-spent-on-youtube/
+// @version      2022.08.27.16.21
+// @description  A simple timer that shows how much time you spent on Youtube today.
 // @license      MIT
 // @author       Marco Dalla Gatta
 // @namespace    https://github.com/marcodallagatta/userscripts/raw/main/time-spent-on-youtube/
