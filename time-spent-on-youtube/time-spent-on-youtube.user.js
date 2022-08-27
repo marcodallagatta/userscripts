@@ -1,14 +1,12 @@
 // ==UserScript==
 // @name         Time Spent on Youtube
-// @version      2022.09.28.15.04
+// @version      2022.09.28.15.06
 // @description  A simple timer that shows how much time you spent on Youtube today. Visit the GitHub repo for more info: https://github.com/marcodallagatta/userscripts/raw/main/time-spent-on-youtube/
 // @license      MIT
 // @author       Marco Dalla Gatta
 // @namespace    https://github.com/marcodallagatta/userscripts/raw/main/time-spent-on-youtube/
 // @match        https://www.youtube.com/*
 // @icon         https://icons.duckduckgo.com/ip2/youtube.com.ico
-// @grant        GM.setValue
-// @grant        GM.getValue
 // ==/UserScript==
 
 (function () {
@@ -61,7 +59,6 @@
   }, 15000); // 15s
 
   // triggers after a few seconds since by default YT overwrites titlebar after a while on load \_(ツ)_/
-  if (showInTitle) {
-    setTimeout(function () { showAlert(spent) }, 2000);
-  }
+  setTimeout(function () { showAlert(spent) }, 2000);
+
 })();
