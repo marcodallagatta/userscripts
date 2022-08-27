@@ -1,12 +1,10 @@
 // ==UserScript==
 // @name         Time Spent on Youtube
-// @version      2022.09.26.15.48
-// @description  A simple timer that shows how much time you spent on Youtube today.
+// @version      2022.09.27.09.34
+// @description  A simple timer that shows how much time you spent on Youtube today. Visit the GitHub repo for more info: https://github.com/marcodallagatta/userscripts/raw/main/time-spent-on-youtube/
 // @license      MIT
 // @author       Marco Dalla Gatta
 // @namespace    https://github.com/marcodallagatta/userscripts/raw/main/time-spent-on-youtube/
-// @updateURL    https://github.com/marcodallagatta/userscripts/raw/main/time-spent-on-youtube/time-spent-on-youtube.user.js
-// @downloadURL  https://github.com/marcodallagatta/userscripts/raw/main/time-spent-on-youtube/time-spent-on-youtube.user.js
 // @match        https://www.youtube.com/*
 // @icon         https://icons.duckduckgo.com/ip2/youtube.com.ico
 // @grant        none
@@ -27,12 +25,11 @@
   const todayYYMMDD = yyyy + mm + dd;
   const hours = today.getHours();
 
-
   let spent = 0;
-
+  localStorage.setItem("hours", hours);
+  
   if (localStorage.getItem("date") !== todayYYMMDD && localStorage.getItem("hours") >= resetTime) {
     localStorage.setItem("date", todayYYMMDD);
-    localStorage.setItem("hours", hours);
     localStorage.setItem("spent", 0);
   } else {
     spent = parseFloat(localStorage.getItem("spent"));
