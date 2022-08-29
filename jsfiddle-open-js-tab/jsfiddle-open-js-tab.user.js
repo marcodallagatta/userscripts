@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         JSFiddle: open in JS tab
+// @name         JSFiddle: open in JavaScript tab
 // @namespace    https://github.com/marcodallagatta/userscripts/raw/main/jsfiddle-open-js-tab
 // @version      2022.08.28.12.16
 // @description  Defaults to the JavaScript tab in JSFiddle. Tiny, but tiny savings compound!
