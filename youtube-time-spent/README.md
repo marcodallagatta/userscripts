@@ -1,6 +1,6 @@
 # Time Spent on YouTube Userscript
 
-![preview](https://github.com/marcodallagatta/userscripts/blob/main/time-spent-on-youtube/preview.jpg?raw=true))
+![preview](https://github.com/marcodallagatta/userscripts/blob/main/youtube-time-spent/preview.jpg?raw=true)
 
 A friend asked me to make a simple userscript to show how long she spends on YouTube every day.
 I decided to publish it here since it could easily be adapted to other websites without changing the logic.
