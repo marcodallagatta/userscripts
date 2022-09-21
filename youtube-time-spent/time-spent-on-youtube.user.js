@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Time Spent on Youtube
-// @version      2022.08.30.07.46
+// @version      2022.09.21.15.10
 // @description  A simple timer that shows how much time you spent on Youtube today.
 // @license      MIT
 // @author       Marco Dalla Gatta
@@ -16,7 +16,6 @@
 
   const background = false; // 'true' also counts when YT is in a background tab, 'false' only counts active tab
   const showInTitle = true; // 'true' prepend the minutes before the title in the tab
-  const originalTitle = document.title;
   const resetTime = 4; // time when the timer resets, 24h time (0 = midnight, 4 = 4AM, 15 = 3PM)
 
   const today = new Date();
@@ -45,10 +44,10 @@
     if (time > 60) {
       const hh = Math.trunc(time / 60).toString();
       elem.innerText = `${hh}h ${mm}m`;
-      if (showInTitle) document.title = `${hh}h${mm.padStart(2, "0")}m ${originalTitle}`;
+      if (showInTitle) document.title = `${hh}h${mm.padStart(2, "0")}m ${document.title}`;
     } else {
       elem.innerText = `${mm}m`;
-      if (showInTitle) document.title = `${mm.padStart(2, "0")}m ${originalTitle}`;
+      if (showInTitle) document.title = `${mm.padStart(2, "0")}m ${document.title}`;
     }
   }
 
