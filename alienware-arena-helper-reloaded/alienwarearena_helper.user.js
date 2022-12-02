@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Alienware Arena Helper Reloaded
 // @namespace    https://github.com/marcodallagatta/userscripts/raw/main/alienware-arena-helper-reloaded
-// @version      2022.09.26.16.01
+// @version      2022.12.02.17.44
 // @description  Makes earning daily ARP easier
 // @author       Marco Dalla Gatta
 // @match        https://*.alienwarearena.com/*
@@ -228,7 +228,7 @@ function awaHelper() {
 
         <div class="awah-option">
         <label><span class="awah-opt-title">Automate Twitch Watching</span><input id="awah-twitchWatchAutomate" class="form-control awah-opt-input" type="checkbox" ${options.twitchWatchAutomate ? "checked" : ""}><div class="form-control awah-opt-input"><div>&nbsp;</div>&nbsp;</div></label>
-        <span class="awah-opt-desc awah-grey">A popup will appear to open the AWA Twitch page, that page will automatically refresh if no streamers are live and open a stream if they are. On Twitch itself, the usersript will remove the player to reduce resources in background. Default: ${options.default().twitchWatchAutomate ? "ON" : "OFF"}</span>
+        <span class="awah-opt-desc awah-grey">A popup will appear to open the AWA Twitch page, that page will automatically refresh if no streamers are live and open a stream if they are. Default: ${options.default().twitchWatchAutomate ? "ON" : "OFF"}</span>
         </div>
 
         <div class="awah-option">
