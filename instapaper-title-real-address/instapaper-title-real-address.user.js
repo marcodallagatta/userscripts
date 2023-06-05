@@ -18,6 +18,8 @@
 
     articles.forEach(art => {
         const url = art.querySelector('.js_bookmark_edit').dataset.url;
-        art.querySelector('.article_title').href = url;
+        const titleUrl = art.querySelector('.article_title');
+        titleUrl.href = url;
+        titleUrl.setAttribute('target', '_blank')
     })
 })();
